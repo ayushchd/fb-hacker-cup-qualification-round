@@ -1,5 +1,4 @@
-from string import *
-import re, sys, os
+import sys
 i = 1
 
 inp = []
@@ -35,9 +34,6 @@ while (t) :
 				c1 -= 1
 		if c1 == 0:
 			cl = 0;
-		#elif c1 < 0:
-		#	if op > 0:
-		#		op -= 1;
 		if c1 < 0 and op == 0:
 			break;
 		j += 1
