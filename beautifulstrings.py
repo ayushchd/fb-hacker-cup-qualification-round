@@ -1,5 +1,4 @@
-from string import *
-import sys, os
+import sys
 i = 1
 
 inp = []
@@ -14,8 +13,6 @@ while (t) :
 	for c in s:
 		asc = ord(c)
 		if asc >= 97 and asc <= 122:
-			if p[asc-97] == 0:
-				d += 1
 			p[asc-97] += 1
 	l = sorted(list(p), reverse=True)
 	m = 26
